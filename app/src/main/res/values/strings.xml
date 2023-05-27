@@ -26,4 +26,9 @@
     <string name="history">History</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next"><![CDATA[Далее ->]]></string>
+    <string name="first_on_board">Дисциплина - результат привычек</string>
+    <string name="tv_on_board">Привычки - регулярность действий</string>
+    <string name="habitracker">Habitracker - следи за своей жизнью</string>
+    <string name="go">Вперед!</string>
 </resources>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/reklamaFragment">
+    app:startDestination="@+id/OnBoardFragment">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -22,5 +22,9 @@
         android:name="com.abit8.habitrack.presentation.ui.profile.ProfileFragment"
         android:label="@string/profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/OnBoardFragment"
+        android:name="com.abit8.habitrack.presentation.ui.onboard.OnBoardFragment"
+        tools:layout="@layout/fragment_on_board" />
 
 </navigation>
