@@ -26,5 +26,18 @@
         android:id="@+id/OnBoardFragment"
         android:name="com.abit8.habitrack.presentation.ui.onboard.OnBoardFragment"
         tools:layout="@layout/fragment_on_board" />
+    <fragment
+        android:id="@+id/userSleep"
+        android:name="com.abit8.habitrack.presentation.ui.useronboard.UserSleep"
+        tools:layout="@layout/fragment_user_sleep"/>
+    <fragment
+        android:id="@+id/secondSleepFragment"
+        android:name="com.abit8.habitrack.presentation.ui.useronboard.SecondSleepFragment"
+        tools:layout="@layout/fragment_second_sleep" />
+    <fragment
+        android:id="@+id/chooseFragment"
+        android:name="com.abit8.habitrack.presentation.ui.useronboard.ChooseFragment"
+        tools:layout="@layout/fragment_choose" />
+
 
 </navigation>

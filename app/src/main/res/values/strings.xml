@@ -31,4 +31,9 @@
     <string name="tv_on_board">Привычки - регулярность действий</string>
     <string name="habitracker">Habitracker - следи за своей жизнью</string>
     <string name="go">Вперед!</string>
+    <string name="time_sleep">В какое время вы обычно засыпаете?</string>
+    <string name="_00">00</string>
+    <string name="skip">Пропустить</string>
+    <string name="choose_">Чего вы хотите достичь?</string>
+    <string name="choose__">Выберите привычки</string>
 </resources>
