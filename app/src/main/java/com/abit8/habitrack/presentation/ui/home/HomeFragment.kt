@@ -7,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
+import com.abit8.habitrack.R
 import com.abit8.habitrack.databinding.FragmentHomeBinding
 import java.time.LocalDate
 
@@ -35,6 +37,13 @@ class HomeFragment : Fragment() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val date: LocalDate = LocalDate.now()
             binding.tvDate.text = date.dayOfMonth.toString()
+        }
+        clickers()
+    }
+
+    private fun clickers() {
+        binding.addBtn.setOnClickListener {
+            findNavController().navigate(R.id.createHabit)
         }
     }
 
