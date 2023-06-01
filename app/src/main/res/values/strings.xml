@@ -36,4 +36,7 @@
     <string name="skip">Пропустить</string>
     <string name="choose_">Чего вы хотите достичь?</string>
     <string name="choose__">Выберите привычки</string>
+    <string name="today">Сегодня</string>
+    <string name="date">7 мая</string>
+    <string name="habits">Привычки</string>
 </resources>

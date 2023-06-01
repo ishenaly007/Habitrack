@@ -1,13 +1,14 @@
 package com.abit8.habitrack.presentation.ui.home
 
+import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.abit8.habitrack.databinding.FragmentHomeBinding
+import java.time.LocalDate
 
 class HomeFragment : Fragment() {
 
@@ -27,6 +28,14 @@ class HomeFragment : Fragment() {
         val root: View = binding.root
 
         return root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val date: LocalDate = LocalDate.now()
+            binding.tvDate.text = date.dayOfMonth.toString()
+        }
     }
 
     override fun onDestroyView() {
